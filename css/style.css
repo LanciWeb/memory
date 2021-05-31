@@ -1,0 +1,40 @@
+/*  General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nerko One', cursive;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #add8e6;
+}
+
+/* Utils */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Header */
+header {
+  color: #fff;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+/* Game */
+
+/* Footer */
+footer {
+  font-size: 18px;
+}
